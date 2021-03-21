@@ -1,8 +1,11 @@
-def Add(int a, int b):
+def add(a, b):
     return a + b
 
-def Mul(int a, int b):
+def mul(a, b):
     return a * b
 
-git Sub(int a, int b):
+def sub(a, b):
     return a - b
+
+def div(a, b):
+    return a//b # 주석
