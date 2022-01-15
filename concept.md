@@ -46,7 +46,7 @@ $ git commit -m "커밋메시지"
 - 커밋 메시지 수정
 ```bash
 $ git commit --amend
-$ git commit --amend "수정할메시지"
+$ git commit --amend -m "수정할메시지"
 ```
 
 ### 관리 상태 확인
