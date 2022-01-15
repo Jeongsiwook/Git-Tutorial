@@ -35,7 +35,11 @@ $ git add .
 ```
 - 특정 파일의 변경사항을 추적하도록 지정(stage)
 ```bash
-$git add 파일이름
+$ git add 파일이름
+```
+- 특정 파일을 잘못 add 했을 때
+```bash
+$ git reset HEAD 파일이름
 ```
 
 ### 저장소 반영
