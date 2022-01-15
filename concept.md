@@ -62,6 +62,15 @@ $ git commit --amend -m "수정할메시지"
   - `git log --graph`: commit 간의 연결 된 관계를 아스키 그래프로 보여줌
   - `git log -s 찾는텍스트`: 코드에서 추가되거나 제거된 내용 중 특정 텍스트가 포함 되었는지 확인 
 - `git diff`: commit된 파일 중 변경 된 사항을 비교할 때
+
+- 특정 commit으로 되돌리기
+```bash
+$ git reset 되돌릴커밋해시값 --hard
+```
+- 바로 이전 커밋으로 되돌리기 (방금한 커밋 취소)
+```bash
+$ git reset HEAD^
+```
 ---
 ## 가지 치기
 ### Branch
